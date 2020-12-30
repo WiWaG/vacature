@@ -62,6 +62,15 @@ return [
             'birthday'   => "1968-07-12",
             'created'    => date('Y-m-d H:i:s'),
             'created_by' => 1
+        ],
+
+        [
+            'first_name' => "Richie",
+            'last_name'  => "Blackmore",
+            'country'    => 225,
+            'birthday'   => "1948-07-12",
+            'created'    => date('Y-m-d H:i:s'),
+            'created_by' => 1
         ]),
     ],
 ];

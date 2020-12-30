@@ -33,8 +33,8 @@ class Model
     public static function all(array $selectedFields = null)
     {
         $fields = "*";
-
-        if (count($selectedFields) > 0) {
+        
+        if (!empty($selectedFields) && count($selectedFields) > 0) {
             $fields = self::composeQuery($selectedFields);
         }
 

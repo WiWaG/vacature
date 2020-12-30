@@ -3,7 +3,6 @@
 namespace App\Controllers;
 
 use App\Libraries\View;
-use App\Libraries\MySql;
 use App\Models\UserModel;
 
 class RegisterController

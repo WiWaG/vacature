@@ -9,7 +9,8 @@ class ArtistController
 
     public function index()
     {
-        ArtistModel::all(['first_name', 'birthday']);
+        $artists = ArtistModel::all();
+        dd($artists);
     }
 
     /**

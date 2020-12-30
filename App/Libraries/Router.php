@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Libraries;
-
 class Router {
 
     public $routes = [
