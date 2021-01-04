@@ -1,7 +1,9 @@
 {
-    "name": "vacature",
+    "name": "wiwaweb/vacature",
 	"version": "1.0.0",
 	"description": "personal codeGorilla project",
+	"license": "proprietary",
+	
     "autoload": {
 
         "classmap": [
