@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+body {
+    font-family: 'Assistant', sans-serif;
+    font-size: 1em;
+    font-weight: 200;
+}
+
+a:link,
+a:active,
+a:visited {
+    color: white;
+}
+
+header {
+    height: 135px;
+    background-color: rgb(25, 10, 19, 0.8);
+    width: 100%;
+    color: white;
+    z-index: 1;
+}
+
+.center-box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 15;
+}
+
+.register-form {
+    width: 50%;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 50px;
+    border-radius: 10px;
+    color: white;
+}
+
+.register-form .alert-danger {
+    color: #e787e8;
+    background-color: #1f1f1f;
+    border-color: #615b5b;
+    opacity: .6;
+}
+
+.login-form {
+    width: 35%;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 50px;
+    border-radius: 10px;
+    color: white;
+}
+
+.login-overlay {
+    background: url('../images/bg-guitarist.jpg');
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.guitar-icon img {
+    width: 150px;
+    opacity: 0.6;
+}
+
+.register-form img {
+    width: 100px;
+}
+
+.guitar-icon h3,
+.guitar-icon h1 {
+    display: inline;
+    margin-left: 20px;
+    font-family: 'Handlee', cursive;
+    font-size: 3rem;
+}
+
+.guitar-icon h2 {
+    font-size: 2rem;
+}
+
+.guitar-icon h1 {
+    font-size: 4.5rem;
+}
+
+header .guitar-icon {
+    margin-left: 20px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.guitar-icon div {
+    margin-top: 15px;
+    display: inline;
+    position: absolute;
+}
+
+#register-message {
+    display: none;
+}
+
+#login-message {
+    display: none;
+    text-align: right;
+    background-color: darkmagenta;
+    opacity: 0.7;
+    padding: 7px;
+    border: 1px solid magenta;
+    border-radius: .3em;
+}
+
+footer {
+    height: 120px;
+    background-color: lavenderblush;
+    width: 100%;
+}
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.user-info {
+    text-align: right;
+}
+
+.user-info img:first-child {
+    width: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.profile-options {
+    background-color: rgba(21, 19, 19, 0.7);
+    padding: 20px;
+    color: white;
+    border-right: 1px solid rgb(70, 11, 70);
+    width: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+    .profile-options {
+        width: 250px;
+        height: 100vh;
+    }
+    .profile-options-inner {
+        margin-top: 50px;
+    }
+}
+
+.profile-section ul {
+    padding: 0;
+}
+
+.profile-section li {
+    list-style-type: none;
+    font-size: 1.1em;
+    height: 30px;
+    padding-left: 20px;
+    line-height: 30px;
+}
+
+.profile-section li a {
+    display: block;
+}
+
+.profile-section li a:hover {
+    text-decoration: none;
+}
+
+.profile-section li:hover {
+    background-color: darkmagenta;
+    opacity: 0.8;
+    border-radius: .3em;
+    cursor: pointer;
+}
