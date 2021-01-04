@@ -1,37 +1,112 @@
-## Welcome to GitHub Pages
+**Online Vacaturebank**
 
-You can use the [editor on GitHub](https://github.com/WiWaG/vacature/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Willem Wagenmakers
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Dit project is een eenvoudige webtoepassing die is ontwikkeld in PHP MySQL met behulp van HTML, CSS, JavaScript en Bootstrap.
 
-### Markdown
+De toepassing bestaat uit de volgende onderdelen;
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**A. Home Page**
+ 
+  1) Bedrijf
+  - Lijst van alle bedrijven 
+  2) Actuele vacatures
+  - Lijst van alle actuele vacatures
+  3) Over ons  
+  4) Contact 
+  5) Vacature plaatsen  
+  6) Vacature zoeken 
+  7) Inloggen/Registreren  
 
-```markdown
-Syntax highlighted code block
+**B.** **Gebruikersdashboard** **Bedrijf**
 
-# Header 1
-## Header 2
-### Header 3
+ 1) Profiel  
+ - Bedrijfsnaam
+ - Adres
+ - E-mailadres
+ - Telefoonnummer
 
-- Bulleted
-- List
+ 2) Contactpersoon
+ - Voornaam
+ - Achternaam
+ - Telefoonnummer
+ - E-mailadres
+ - Gebruikersnaam
+ - Wachtwoord
 
-1. Numbered
-2. List
+ 3) Vacature Plaatsen
+ - categorie
+ - functie
+ - functiebeschrijving
+ - funnctievereisten
+ - duur van het dienstverband
+ - salaris
 
-**Bold** and _Italic_ and `Code` text
+ 4. Meldingen & Berichten
 
-[Link](url) and ![Image](src)
-```
+**C. Gebruikersdashboard Sol****l****icitant**
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+ 1) Profiel
+ - Voornaam,
+ - Achternaam
+ - Adres
+ - Geslacht
+ - Geboortedatum
+ - Telefoonnummer
+ - E-mailadres
+ - Gebruikersnaam
+ - Wachtwoord
+ - Bijlage
+  
+ 2) Sollicitaties
+ - Overzicht
+ 
+ 3) Meldingen & Berichten
+ 
+**D. Beheerdersdashboard**
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/WiWaG/vacature/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+ 1) Bedrijf
+ - Overzicht van alle bedrijven
+ - een nieuw bedrijf toevoegen
+ - naam, adres, tel.nr. van contactpersoon
+ - bewerken en verwijderen
+ - vermeldingen weergeven en zoeken
+ 
+ 2) Vacature
+ - Lijst met vacatures
+ - Nieuwe vacatures toevoegen
+ - categorie
+ - bedrijfsnaam
+ - functie
+ - functiebeschrijving
+ - funnctievereisten
+ - duur van het dienstverband
+ - salaris
+ - bewerken en verwijderen
+ - vermeldingen weergeven en zoeken
+ 
+ 3) Sollicitanten
+ - Lijst met sollicitanten
+ - sollicitant
+ - categorie
+ - vacature
+ - bedrijf
+ - sollicitatiedatum
+ - opmerkingen
+ - bewerken en verwijderen
+ - vermeldingen weergeven en zoeken
+ 
+ 4) Categorie
+ - lijst met categorieën
+ - nieuwe categorie toevoegen
+ - bewerken en verwijderen
+ - vermeldingen weergeven en zoeken
+ 
+ 5) Gebruikersbeheer
+ - Lijst met gebruikers
+ - account-ID
+ - accountnaam
+ - gebruikersnaam
+ - rol
+ - bewerken en verwijderen
+ - vermeldingen weergeven en zoeken
