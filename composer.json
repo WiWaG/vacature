@@ -1,4 +1,7 @@
 {
+    "name": "vacature",
+	"version": "1.0.0",
+	"description": "personal codeGorilla project",
     "autoload": {
 
         "classmap": [
