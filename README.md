@@ -10,7 +10,7 @@ De toepassing bestaat uit de volgende onderdelen;
  
   1) Bedrijf
   - Lijst van alle bedrijven 
-  1) Actuele vacatures
+  2) Actuele vacatures
   - Lijst van alle actuele vacatures
   3) Over ons  
   4) Contact 
