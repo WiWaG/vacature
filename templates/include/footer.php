@@ -1,10 +1,8 @@
-<footer><p>All right reserved.</p></footer>
-				</div>
-             <!-- /. PAGE INNER  -->
-            </div>
-         <!-- /. PAGE WRAPPER  -->
-        </div>
-     <!-- /. WRAPPER  -->
+        <footer><p>All right reserved.</p></footer>    
+    </div>
+    <!-- /. PAGE WRAPPER  -->
+</div>
+<!-- /. WRAPPER  -->
     <!-- JS Scripts-->
     <!-- jQuery Js -->
     <script src="assets/js/jquery-1.10.2.js"></script>
@@ -18,6 +16,5 @@
       <!-- Custom Js -->
     <script src="assets/js/custom-scripts.js"></script>
     
-   
 </body>
 </html>
