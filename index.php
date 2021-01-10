@@ -4,6 +4,6 @@
 
 $template = new Template('templates/frontpage.php');
 
-
+$template->title = 'Dashboard';
 
 echo $template;
