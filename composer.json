@@ -1,5 +1,5 @@
 {
-    "name": "wiwag/vacature",
+    "name": "vacature",
     "description": "Eenvoudige webtoepassing die is ontwikkeld in PHP MySQL met behulp van HTML, CSS, JavaScript en Bootstrap",
     "type": "project",
     "license": "GPL version 3",
@@ -23,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Wiwag\\Vacature\\": "src/"
+            "Vacature\\": "/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Wiwag\\Vacature\\": [
+            "Vacature\\": [
                 "tests/",
                 "tests/Fake"
             ]

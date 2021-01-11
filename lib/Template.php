@@ -1,31 +1,18 @@
-template
-<?php class Template{
-    //path to template
-    protected $template;
+<?php
 
-    //vars passed in
-    protected $vars = array();
+namespace lib;
 
-    //constructor
-    public function __construct($template){
-        $this->template = $template;
+class Template
+{
+
+    public static function render($view, array $vars = null)
+    {
+        require $_SERVER['DOCUMENT_ROOT'] . '/templates/' . $template . '.php';
     }
 
-    public function __get($key){
-        return $this->vars[$key];
+    public static function redirect($uri)
+    {
+        header("Location: " . $uri);
     }
 
-    public function __set($key, $value){
-        $this->vars[$key] = $value;
-    }
-    
-    public function __toString(){
-        extract($this->vars);
-        chdir(dirname($this->template));
-        ob_start();
-
-        include basename($this->template);
-        
-        return ob_get_clean();
-    }
 }
