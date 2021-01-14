@@ -1,5 +1,5 @@
-<?php include 'include/header.php';?>
-<?php include 'include/navbar.php';?>
+<?php require 'include/header.php';?>
+<?php require 'include/navbar.php';?>
 
 
 
@@ -20,4 +20,4 @@
             </div>
             <!-- /. PAGE INNER  -->
 
-<?php include 'include/footer.php'; ?>
+<?php require 'include/footer.php'; ?>

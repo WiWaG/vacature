@@ -1,0 +1,24 @@
+{
+  "name": "vacature",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WiWaG/vacature.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WiWaG/vacature/issues"
+  },
+  "homepage": "https://wiwag.github.io/vacature/",
+  "dependencies": {
+    "bootstrap": "^3.3.4",
+    "jquery": "^3.5.1"
+  }
+}

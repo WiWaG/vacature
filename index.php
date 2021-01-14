@@ -8,7 +8,7 @@ use lib\Request;
 
 
 
-require 'Core/bootstrap.php';
+require 'core/bootstrap.php';
 
 
 
@@ -32,17 +32,35 @@ if (!Request::ajax())
 
     // Load the HTML header
 
-        require 'views/layouts/head.view.php';
+        require 'views/include/header.php';
+        require 'views/include/navbar.php';
 
 
 
             // Inject code from contho $class->$function();
+            
+            <div id="page-wrapper">
+                <div class="header"> 
+                                <h1 class="page-header">
+                                    Dashboard <small>Vacaturebank</small>
+                                </h1>
+                                <ol class="breadcrumb">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Library</a></li>
+                                    <li class="active">Data</li>
+                                </ol> 
+                                            
+                </div>
+            <div id="page-inner">
+                <p>frontpage</p> 
+            </div>
+            <!-- /. PAGE INNER  -->
 
 
 
                 // Close it with the bottom end </body> and </html> tags
 
-                    require 'views/layouts/bottom.view.php';
+                    require 'views/include/footer.php';
 
                     } else {
 

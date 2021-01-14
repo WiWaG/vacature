@@ -63,3 +63,4 @@ function pluralize($quantity, $singular, $plural=null)
         default:
             return $singular.'s';
     }
+}
