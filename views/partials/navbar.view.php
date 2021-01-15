@@ -8,7 +8,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php"><strong><?php echo SITE_TITLE; ?></strong></a>
+                <a class="navbar-brand" href="index.php"><strong><?php echo "Vacaturebank"; ?></strong></a>
             </div>
 
             <ul class="nav navbar-top-links navbar-right">
