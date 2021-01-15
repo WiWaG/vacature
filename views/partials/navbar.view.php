@@ -231,23 +231,23 @@
                     <ul class="nav" id="main-menu">
 
                         <li>
-                            <a class="active-menu" href="../index.php"><i class="fa fa-dashboard"></i> Dashboard</a>
+                            <a class="active-menu" href="index.php"><i class="fa fa-dashboard"></i> Dashboard</a>
                         </li>
                         <li>
-                            <a href="../ui-elements.php"><i class="fa fa-desktop"></i> UI Elements</a>
+                            <a href="ui-elements.view.php"><i class="fa fa-desktop"></i>Bedrijven</a>
                         </li>
                         <li>
-                            <a href="../chart.php"><i class="fa fa-bar-chart-o"></i> Grafieken</a>
+                            <a href="chart.php"><i class="fa fa-bar-chart-o"></i>Sollicitanten</a>
                         </li>
                         <li>
-                            <a href="../tab-panel.php"><i class="fa fa-qrcode"></i> Tabs & Panels</a>
+                            <a href="tab-panel.php"><i class="fa fa-qrcode"></i>Vacatures</a>
                         </li>
                         
                         <li>
-                            <a href="../table.php"><i class="fa fa-table"></i> Responsive Tables</a>
+                            <a href="table.php"><i class="fa fa-table"></i>Categorieën</a>
                         </li>
                         <li>
-                            <a href="../form.php"><i class="fa fa-edit"></i> Forms </a>
+                            <a href="form.php"><i class="fa fa-edit"></i>Gebruikersbeheer</a>
                         </li>
 
 
@@ -279,7 +279,7 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="../empty.php"><i class="fa fa-fw fa-file"></i> Empty Page</a>
+                            <a href="empty.php"><i class="fa fa-fw fa-file"></i> Empty Page</a>
                         </li>
                     </ul>
                 </div>

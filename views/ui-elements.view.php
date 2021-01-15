@@ -1,9 +1,9 @@
-﻿<?php include 'include/header.php';?>
-<?php include 'include/navbar.php';?>
+﻿<?php require '../views/partials/header.view.php'; ?>
+<?php require '../views/partials/navbar.view.php'; ?>
 
 <?php 
 echo 'ui-elements';
 ?>
 
 
-<?php include 'include/footer.php';?>
+<?php require '../views/partials/footer.view.php';?>
