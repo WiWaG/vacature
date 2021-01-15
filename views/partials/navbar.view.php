@@ -221,6 +221,10 @@
             </ul>
         </nav>
         <!--/. NAV TOP  -->
+
+
+        <!--NAV SIDE  -->
+
         <nav class="navbar-default navbar-side" role="navigation">
 		    <div id="sideNav" href=""><i class="fa fa-caret-right"></i></div>
                 <div class="sidebar-collapse">
@@ -280,3 +284,6 @@
                     </ul>
                 </div>
         </nav>
+        <!--/. NAV SIDE  -->
+
+    <div id="page-wrapper">

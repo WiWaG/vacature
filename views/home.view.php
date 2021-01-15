@@ -3,7 +3,7 @@
 
 
 
-        <div id="page-wrapper">
+     
                 <div class="header"> 
                                 <h1 class="page-header">
                                     Dashboard <small>Vacaturebank</small>
