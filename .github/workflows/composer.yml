@@ -1,4 +1,4 @@
-- name: Composer (php-actions)
+  name: Composer (php-actions)
   # You may pin to the exact commit or the version.
   # uses: php-actions/composer@8168ac994bf729f4a3d72e70c4752364e67174f0
   uses: php-actions/composer@v5
