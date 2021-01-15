@@ -1,0 +1,33 @@
+- name: Composer (php-actions)
+  # You may pin to the exact commit or the version.
+  # uses: php-actions/composer@8168ac994bf729f4a3d72e70c4752364e67174f0
+  uses: php-actions/composer@v5
+  with:
+    # What version of Composer to use
+    version: # optional, default is latest
+    # What version of PHP to use
+    php_version: # optional, default is latest
+    # Space separated list of extensions to configure with the PHP build
+    php_extensions: # optional
+    # Composer command to run
+    command: # default is install
+    # Only run the desired command with this args. Ignoring all other provided arguments
+    only_args: # optional
+    # Whether to ask any interactive questions. Values: 'yes' or 'no'
+    interaction: # optional
+    # Whether to install dev packages. Values: 'yes' or 'no'
+    dev: # optional, default is true
+    # Whether to output download progress
+    progress: # optional
+    # Whether to suppress all messages
+    quiet: # optional
+    # Optional arguments to pass
+    args: # optional
+    # The private key contents to use for private repositories
+    ssh_key: # optional
+    # The public key contents to use for private repositories
+    ssh_key_pub: # optional
+    # The domain to gather SSH public keys for (automatic for github.com, gitlab.com, bitbucket.org)
+    ssh_domain: # optional
+    # Use the given directory as working directory
+    working_dir: # optional
