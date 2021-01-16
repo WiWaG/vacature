@@ -11,8 +11,8 @@
 // This function is in core/core.php file
 // set_exception_handler('exception_handler');
 
-use lib\Router;
-use lib\Request;
+use app\lib\Router;
+use app\lib\Request;
 
 require 'core/bootstrap.php';
 

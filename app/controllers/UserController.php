@@ -1,9 +1,9 @@
 <?php
 
-namespace controllers;
+namespace app\controllers;
 
 use App\Models\UserModel;
-use lib\View;
+use app\lib\View;
 use lib\MySql;
 class UserController extends Controller
 {

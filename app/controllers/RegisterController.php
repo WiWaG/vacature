@@ -1,8 +1,8 @@
 <?php
 
-namespace controllers;
+namespace app\controllers;
 
-use lib\View;
+use app\lib\View;
 use App\Models\UserModel;
 use lib\Email;
 class RegisterController

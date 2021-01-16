@@ -1,13 +1,13 @@
 <?php
 
-namespace lib;
+namespace app\lib;
 
 class Template
 {
 
     public static function render($view, array $vars = null)
     {
-        require $_SERVER['DOCUMENT_ROOT'] . '/templates/' . $template . '.php';
+        require $_SERVER['DOCUMENT_ROOT'] . '/views/' . $template . '.php';
     }
 
     public static function redirect($uri)

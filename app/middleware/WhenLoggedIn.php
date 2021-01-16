@@ -1,10 +1,10 @@
 <?php
 
-namespace middleware;
+namespace app\middleware;
 
-use lib\View;
+use app\lib\View;
 
-class WhenNotLoggedin
+class WhenLoggedIn
 {
 
     private $isLoggedIn = false;
@@ -18,8 +18,9 @@ class WhenNotLoggedin
 
     private function redirect()
     {
-        if (!$this->isLoggedIn) {
-            View::redirect('login');
+        if ($this->isLoggedIn) {
+            View::redirect('admin');
         }
     }
+
 }

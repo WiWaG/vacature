@@ -1,8 +1,8 @@
 <?php
 
-namespace controllers;
+namespace app\controllers;
 
-use lib\View;
+use app\lib\View;
 
 class AdminController
 {
