@@ -1,16 +1,5 @@
 <?php
 
-// Turn on all errors, warnings and notifications at the top of this app
-// ini_set('display_errors', 1);
-// ini_set('display_startup_errors', 1);
-// error_reporting(E_ALL);
-
-// require 'core/core.php';
-
-// Throw all errors to a central error handler function
-// This function is in core/core.php file
-// set_exception_handler('exception_handler');
-
 use app\lib\Router;
 use app\lib\Request;
 
@@ -25,28 +14,8 @@ $class = new $route['class'];
 $function = $route['function'];
 
 
-if (!Request::ajax())
+if (!Request::ajax()) {
 
-{
-
-        // Load the HTML header
-
-        require 'views/partials/header.view.php';
-        // require 'views/partials/navbar.view.php';
-
-
-        // Inject code from contho $class->$function();
         echo $class->$function();
-        // require 'views/partials/content.view.sample.php';
-           
-            
-        // Close it with the bottom end </body> and </html> tags
-
-        require 'views/partials/bottom.view.php';
 
 } 
-                    else {
-
-                        echo $class->$function();
-
-                        }

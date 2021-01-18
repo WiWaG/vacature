@@ -18,6 +18,6 @@
 	    <script src="assets/js/Lightweight-Chart/jquery.chart.js"></script>
         <!-- Custom Js -->
         <script src="../../assets/js/custom-scripts.js"></script>
-    
+        <script src="../../assets/js/nav-active.js"></script>
 </body>
 </html>

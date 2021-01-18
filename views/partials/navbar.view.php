@@ -231,7 +231,7 @@
                     <ul class="nav" id="main-menu">
 
                         <li>
-                            <a class="active-menu" href="index.php"><i class="fa fa-dashboard"></i> Dashboard</a>
+                            <a class="active" href="#"><i class="fa fa-dashboard"></i> Dashboard</a>
                         </li>
                         <li>
                             <a href="bedrijven"><i class="fa fa-desktop"></i>Bedrijven</a>

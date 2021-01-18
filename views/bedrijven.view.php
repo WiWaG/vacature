@@ -1,6 +1,4 @@
-﻿Bedrijven
-
-<?php require 'partials/header.view.php'; ?>
+﻿<?php require 'partials/header.view.php'; ?>
 <?php require 'partials/navbar.view.php'; ?>
 
 <div class="header"> 
@@ -21,4 +19,4 @@
 
 
 
-<?php require 'partials/footer.view.php';?>
+<?php require 'partials/bottom.view.php';?>

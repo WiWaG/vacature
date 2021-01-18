@@ -16,10 +16,10 @@
                                             
                 </div>
             <div id="page-inner">
-                <p>frontpage</p> 
+                <p>frontpage2</p> 
             </div>
             <!-- /. PAGE INNER  -->
 
         
 
-<?php require 'partials/footer.view.php'; ?>
+<?php require 'partials/bottom.view.php'; ?>
