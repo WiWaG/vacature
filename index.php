@@ -32,15 +32,17 @@ if (!Request::ajax())
         // Load the HTML header
 
         require 'views/partials/header.view.php';
-        require 'views/partials/navbar.view.php';
+        // require 'views/partials/navbar.view.php';
 
 
         // Inject code from contho $class->$function();
-                    
+        echo $class->$function();
+        // require 'views/partials/content.view.sample.php';
+           
             
         // Close it with the bottom end </body> and </html> tags
 
-        require 'views/partials/footer.view.php';
+        require 'views/partials/bottom.view.php';
 
 } 
                     else {

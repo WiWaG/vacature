@@ -234,7 +234,7 @@
                             <a class="active-menu" href="index.php"><i class="fa fa-dashboard"></i> Dashboard</a>
                         </li>
                         <li>
-                            <a href="ui-elements.view.php"><i class="fa fa-desktop"></i>Bedrijven</a>
+                            <a href="bedrijven"><i class="fa fa-desktop"></i>Bedrijven</a>
                         </li>
                         <li>
                             <a href="chart.php"><i class="fa fa-bar-chart-o"></i>Sollicitanten</a>
@@ -286,4 +286,6 @@
         </nav>
         <!--/. NAV SIDE  -->
 
-    <div id="page-wrapper">
+    
+        <div id="page-wrapper">
+

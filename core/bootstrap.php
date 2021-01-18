@@ -7,7 +7,7 @@ session_start();
 $dotenv = \Dotenv\Dotenv::createImmutable($_SERVER['DOCUMENT_ROOT']);
 $dotenv->load();
 
-require 'core/core.php';
+// require 'core/core.php';
 
 $msg = new \Plasticbrain\FlashMessages\FlashMessages();
 

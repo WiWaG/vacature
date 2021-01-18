@@ -15,6 +15,7 @@
     <!-- Google Fonts-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
     <link rel="stylesheet" href="../assets/js/Lightweight-Chart/cssCharts.css"> 
+    <link rel="icon" href="../../public/img/favicon.ico" type="image/x-icon">
 </head>
 
 
