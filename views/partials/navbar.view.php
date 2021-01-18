@@ -237,17 +237,17 @@
                             <a href="bedrijven"><i class="fa fa-desktop"></i>Bedrijven</a>
                         </li>
                         <li>
-                            <a href="chart.php"><i class="fa fa-bar-chart-o"></i>Sollicitanten</a>
+                            <a href="sollicitanten"><i class="fa fa-bar-chart-o"></i>Sollicitanten</a>
                         </li>
                         <li>
-                            <a href="tab-panel.php"><i class="fa fa-qrcode"></i>Vacatures</a>
+                            <a href="vacatures"><i class="fa fa-qrcode"></i>Vacatures</a>
                         </li>
                         
                         <li>
-                            <a href="table.php"><i class="fa fa-table"></i>Categorieën</a>
+                            <a href="categorie"><i class="fa fa-table"></i>Categorieën</a>
                         </li>
                         <li>
-                            <a href="form.php"><i class="fa fa-edit"></i>Gebruikersbeheer</a>
+                            <a href="gebruikersbeheer"><i class="fa fa-edit"></i>Gebruikersbeheer</a>
                         </li>
 
 
